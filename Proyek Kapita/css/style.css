@@ -1,5 +1,5 @@
 :root{
-  --canva-bg: url("FIXPOLL.jpg");
+  --canva-bg: url("../images/FIXPOLL.jpg");
   --cols: 18;
   --rows: 13;
   --cell-size: 44px;
@@ -29,3 +29,4 @@ body{
   background-image: var(--canva-bg);
   background-size: cover;
 }
+
