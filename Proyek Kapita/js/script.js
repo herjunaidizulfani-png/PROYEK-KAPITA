@@ -51,7 +51,7 @@ document.getElementById('clearBtn').addEventListener('click', ()=>{
 
 // Data soal
 const across = [
-  {num:5, row:3, col:7, clue:'5. Lawan dari bilangan positif', answer:'TIGA'},
+  {num:5, row:3, col:7, clue:'5. Hitung hasil dari (-2) + 5=...', answer:'TIGA'},
   {num:7, row:5, col:6, clue:'7. Tentukan hasil dari 3 x 4=...', answer:'DUABELAS'},
   {num:9, row:7, col:7, clue:'9. Hitung hasil dari 9 + 9=...', answer:'DELAPANBELAS'},
   {num:10, row:9, col:6, clue:'10. Hitung 6 - 4=...', answer:'DUA'},
@@ -139,3 +139,4 @@ renderClues();
 const backsound = document.getElementById('backsound');
 document.getElementById('playMusic').addEventListener('click', ()=> backsound.play());
 document.getElementById('pauseMusic').addEventListener('click', ()=> backsound.pause());
+
