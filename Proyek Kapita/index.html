@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TTS-BILANGAN BULAT</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="board-wrap">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">
+      <h3 style="margin:0">TTS KAPITA SELEKTA - BILANGAN BULAT</h3>
+      <div style="font-size:12px;color:#064b52">
+        Dibuat Oleh:<br>
+        1. Hanum Nur Faricha (230210101049)<br>
+        2. Zulfani Her Junaidi (230210101059)<br>
+        3. Septina Wahyu Puspitasari (230210101151)
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="checkBtn">Cek</button>
+      <button id="revealBtn">Tunjukkan Jawaban</button>
+      <button id="clearBtn" class="ghost">Bersihkan</button>
+      <button id="playMusic">🎵 Play Music</button>
+      <button id="pauseMusic">⏸ Pause Music</button>
+    </div>
+
+    <div id="board" class="board" aria-label="papan tts"></div>
+
+    <!-- Daftar Pertanyaan -->
+    <div class="clue-list">
+      <div>
+        <strong>Mendatar</strong>
+        <div id="across-clues"></div>
+      </div>
+      <div>
+        <strong>Menurun</strong>
+        <div id="down-clues"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio Backsound -->
+  <audio id="backsound" loop>
+    <source src="music/backsound.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
